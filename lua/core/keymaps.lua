@@ -39,9 +39,11 @@ local map = vim.api.nvim_set_keymap
 -- Move to previous/next
 map('n', '<s-tab>', '<Cmd>BufferPrevious<CR>', opts)
 map('n', '<tab>', '<Cmd>BufferNext<CR>', opts)
+
 -- Re-order to previous/next
 map('n', '<A-<>', '<Cmd>BufferMovePrevious<CR>', opts)
 map('n', '<A->>', '<Cmd>BufferMoveNext<CR>', opts)
+
 -- Goto buffer in position...
 map('n', '<A-1>', '<Cmd>BufferGoto 1<CR>', opts)
 map('n', '<A-2>', '<Cmd>BufferGoto 2<CR>', opts)
@@ -67,6 +69,7 @@ map('n', '<c-w>', '<Cmd>BufferClose<CR>', opts)
 --                 :BufferCloseBuffersRight
 -- Magic buffer-picking mode
 map('n', '<C-p>', '<Cmd>BufferPick<CR>', opts)
+
 -- Sort automatically by...
 map('n', '<Space>bb', '<Cmd>BufferOrderByBufferNumber<CR>', opts)
 map('n', '<Space>bd', '<Cmd>BufferOrderByDirectory<CR>', opts)
