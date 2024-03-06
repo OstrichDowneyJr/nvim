@@ -8,7 +8,8 @@ null_ls.setup({
 		null_ls.builtins.diagnostics.ruff,
 		null_ls.builtins.formatting.isort,
 		-- c
-		-- null_ls.builtins.formatting.astgrep,
+		null_ls.builtins.formatting.cpptools,
+    null_ls.builtins.diagnostics.cpptools,
 	},
 })
 

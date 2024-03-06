@@ -51,7 +51,7 @@ return {
 		"justinhj/battery.nvim",
 
 		-- terminal
-		"akinsho/toggleterm.nvim",
+		"rebelot/terminal.nvim",
 		-- git integration
 		"lewis6991/gitsigns.nvim",
 		"tpope/vim-fugitive",
